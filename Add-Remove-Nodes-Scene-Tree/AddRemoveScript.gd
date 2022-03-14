@@ -22,7 +22,7 @@ func addRemoveDeleteTimerNode():
 
 func addRemoveTimerWithScript():
 	var timerNode = Timer.new() # create a Timer Object, variable acts as pointer
-	var script = load("res://examples/Add-Remove-Nodes-Scene-Tree/ExitTreeTimer.gd")
+	var script = load("res://Add-Remove-Nodes-Scene-Tree/ExitTreeTimer.gd")
 	timerNode.set_script(script)
 	self.add_child(timerNode) # add Timer Object to Scene Tree
 	self.remove_child(timerNode) # remove Timer Object from Scene Tree
